@@ -46,7 +46,7 @@ st.markdown("""
 
 # ── Header ───────────────────────────────────────────────────
 st.markdown("# ◈ Smart Image Enhancement & Analysis System")
-st.markdown("**DIP ** | Muhammad Talal Tariq | 235154 | Python · OpenCV ")
+st.markdown("DIP  | Muhammad Talal Tariq | 235154 | Python · OpenCV ")
 st.markdown("---")
 
 # ── Sidebar ───────────────────────────────────────────────────
@@ -63,8 +63,8 @@ with st.sidebar:
     ty_val    = st.slider("Translation Y", -200, 200, 0, 1)
     shear_val = st.slider("Shear Factor", -0.8, 0.8, 0.0, 0.01)
     st.markdown("---")
-    st.markdown("**Muhammad Talal Tariq**")
-    st.markdown("Reg ID: 235154 | DIP Lab 06")
+    st.markdown("Muhammad Talal Tariq")
+    st.markdown("235154 | DIP ")
 
 # ── Load image ────────────────────────────────────────────────
 def load_image(upload):
