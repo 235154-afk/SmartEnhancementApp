@@ -1,8 +1,6 @@
 """
 Smart Image Enhancement & Analysis System
-DIP Lab 06 | Muhammad Talal Tariq | Reg ID: 235154
-Streamlit Web App Version
-Run: streamlit run streamlit_app.py
+DIP|Muhammad Talal Tariq|235154
 """
 
 import streamlit as st
@@ -14,7 +12,7 @@ import io
 
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="Smart Image Enhancement | DIP Lab 06",
+    page_title="Smart Image Enhancement | DIP ",
     page_icon="◈",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -48,7 +46,7 @@ st.markdown("""
 
 # ── Header ───────────────────────────────────────────────────
 st.markdown("# ◈ Smart Image Enhancement & Analysis System")
-st.markdown("**DIP Lab 06** | Muhammad Talal Tariq | Reg ID: 235154 | Python · OpenCV · Streamlit")
+st.markdown("**DIP ** | Muhammad Talal Tariq | 235154 | Python · OpenCV ")
 st.markdown("---")
 
 # ── Sidebar ───────────────────────────────────────────────────
